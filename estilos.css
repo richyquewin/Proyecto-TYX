@@ -1,0 +1,160 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+  }
+  
+  p {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  img {
+    display: block;
+    margin: auto;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .product-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .product-list li {
+    margin: 10px;
+  }
+  
+  .product-list li img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .product-list li h4 {
+    font-size: 20px;
+  }
+  
+  .product-list li p {
+    font-size: 16px;
+  }
+  
+  .product-list li button {
+    float: right;
+  }
+  
+  .product-details {
+    margin: 10px;
+  }
+  
+  .product-details h4 {
+    font-size: 20px;
+  }
+  
+  .product-details p {
+    font-size: 16px;
+  }
+  
+  .product-details .price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .product-details .add-to-cart {
+    float: right;
+  }
+  
+  .cart {
+    margin: 10px;
+  }
+  
+  .cart ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .cart ul li {
+    margin: 10px;
+  }
+  
+  .cart ul li img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .cart ul li h4 {
+    font-size: 20px;
+  }
+  
+  .cart ul li p {
+    font-size: 16px;
+  }
+  
+  .cart ul li .price {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .cart ul li .quantity {
+    font-size: 16px;
+  }
+  
+  .cart ul li .total {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .cart .total {
+    margin: 10px;
+  }
+  
+  .cart .total .subtotal {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .cart .total .shipping {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .cart .total .tax {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .cart .total .total {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .checkout {
+    margin: 10px;
+  }
+  
+  .checkout form {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .checkout form .input {
+    width: 200px;
+  }
+  
+  .checkout form .submit {
+    float: right;
+  }
+  
